@@ -1,0 +1,32 @@
+﻿<Window x:Class="Array.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Array"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Label Content="Введіть числа одновимірного масиву:" HorizontalAlignment="Left" Height="29" Margin="175,26,0,0" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="txt_input1" HorizontalAlignment="Left" Height="29" Margin="443,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBox x:Name="txt_input_res" HorizontalAlignment="Left" Height="29" Margin="443,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="btn_res" Content="Показати масив" HorizontalAlignment="Left" Margin="132,64,0,0" VerticalAlignment="Top" Height="24" Width="286" Click="btn_res_Click"/>
+        <Button x:Name="btn_res_min" Content="Обрахувати к-сь від'ємних елементів масиву" HorizontalAlignment="Left" Height="23" Margin="132,101,0,0" VerticalAlignment="Top" Width="286" Click="btn_res_min_Click"/>
+        <TextBox x:Name="txt_input_res2" HorizontalAlignment="Left" Height="29" Margin="443,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="btn_res_sum" Content="Обрахувати суму модулів елементів після мін." HorizontalAlignment="Left" Height="28" Margin="132,139,0,0" VerticalAlignment="Top" Width="286" Click="btn_res_sum_Click"/>
+        <TextBox x:Name="txt_input_res3" HorizontalAlignment="Left" Height="29" Margin="443,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="btn_res_sort" Content="Відсортувати за зростанням (від'ємні до квадрату)" HorizontalAlignment="Left" Height="26" Margin="132,181,0,0" VerticalAlignment="Top" Width="286" Click="btn_res_sort_Click"/>
+        <TextBox x:Name="txt_input_res4" HorizontalAlignment="Left" Height="28" Margin="443,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="btn_show" Content="Показати масив" HorizontalAlignment="Left" Height="25" Margin="132,253,0,0" VerticalAlignment="Top" Width="286" Click="btn_show_Click"/>
+        <Label x:Name="Введіть_к_сть_стовпців_та_рядків_2_вим__масиву" Content="Введіть к-сть стовпців та рядків 2-вим масиву" HorizontalAlignment="Left" Height="29" Margin="132,219,0,0" VerticalAlignment="Top" Width="286"/>
+        <TextBox x:Name="txt_input_res5" HorizontalAlignment="Left" Height="28" Margin="443,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_input_res6" HorizontalAlignment="Left" Height="73" Margin="443,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBox x:Name="txt_input_res5_1" HorizontalAlignment="Left" Height="28" Margin="577,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"/>
+        <Button x:Name="btn_show_2" Content="Показати елементи 2 стовпця масиву " HorizontalAlignment="Left" Height="29" Margin="132,334,0,0" VerticalAlignment="Top" Width="286" Click="btn_show_2_Click"/>
+        <TextBox x:Name="txt_input_res7" HorizontalAlignment="Left" Height="29" Margin="443,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="btn_res_row" Content="Вкажіть рядок масиву, який потрібно вивести" HorizontalAlignment="Left" Height="29" Margin="132,368,0,0" VerticalAlignment="Top" Width="286" Click="btn_res_row_Click"/>
+        <TextBox x:Name="txt_input_res8" HorizontalAlignment="Left" Height="28" Margin="443,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_input_res9" HorizontalAlignment="Left" Height="29" Margin="443,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+
+    </Grid>
+</Window>
